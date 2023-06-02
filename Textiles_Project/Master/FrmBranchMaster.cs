@@ -13,6 +13,7 @@ namespace Textiles_Project.Master
 {
     public partial class FrmBranchMaster : DevExpress.XtraEditors.XtraForm
     {
+        int i = 0;
         #region Data Member
 
         FormEvents objBOFormEvents;
