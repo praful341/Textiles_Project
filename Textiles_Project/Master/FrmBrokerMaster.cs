@@ -10,6 +10,7 @@ namespace Textiles_Project.Master
 {
     public partial class FrmBrokerMaster : DevExpress.XtraEditors.XtraForm
     {
+        int j = 0;
         BLL.FormEvents objBOFormEvents = new BLL.FormEvents();
         BLL.Validation Val = new BLL.Validation();
         PartyMaster objParty;
